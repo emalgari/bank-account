@@ -38,10 +38,12 @@ withdrawal(){
     else{
         alert("Please enter digits. \nThank You!")
     }
-},
+},//withdrawal function end
+
+//get-account-name function
 getAccountName(){
     alert(`Account holder is: ${this.accountName}`);
-},//withdrawal function end
+},//get-account-name function end
 
 //account-error function
 accountError(){
